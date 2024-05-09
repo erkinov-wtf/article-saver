@@ -1,5 +1,15 @@
 # Read Adviser Bot
 
+This bot can save links sent to it by its interlocutors and send them upon request
+random link from saved ones.
+
+This is useful for those people who often save a lot of articles but forget to read them :)
+
+The code is written in such a way that it is easy to extend. For example, you can easily access it
+add an implementation for any other messenger by adding the corresponding client. Rest of logic
+will remain unchanged.
+________________________________________
+
 Данный бот умеет сохранять ссылки, которые ему скидывают собеседники, и по запросу отправлять
 случайную ссылку из сохраненных.
 
